@@ -1,11 +1,45 @@
-<div class="seccion-cine">
-    <h2>Cine</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 2000s World</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class ="section-welcome">
+    <h2 class="flicker-text">BIENVENIDOS A NUESTRO SITIO WEB!!!!</h2>
+    
     </div>
 
-<div class="seccion-musica">
+
+    <div class="section-cine">
+    <h2>Cine</h2>
+    <button id="open-cine-window">Explora más cine :)</button>
+<p>Todo lo que tenes que conocer sobre el cine!</p>
+    </div>
+
+<div class="section-musica">
     <h2>Música</h2>
     </div>
 
-<div class="seccion-arte">
+<div class="section-arte">
     <h2>Arte</h2>
     </div>
+
+    <div id="cine-window" class="modal-window hidden">
+        <div class="modal-content">
+            <div class="top-bar">
+                <span class="title">Cine Explorer 🎬</span>
+                <span class="close-button">&times;</span>
+            </div>
+            <div class="window-body">
+                <p>Bienvenido a la categoría CINE, donde te mostramos las mejores películas de los 2000.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    </body>
+</html>
